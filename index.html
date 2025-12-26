@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TikTok Creator Toolkit - 2025</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Kalam:wght@400;700&family=Bangers&display=swap');
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Kalam', cursive;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        h1 {
+            font-family: 'Permanent Marker', cursive;
+            font-size: 3.5rem;
+            color: #fff;
+            text-align: center;
+            text-shadow: 4px 4px 0 #000;
+            margin: 30px 0;
+        }
+        
+        .toolkit-section {
+            background: rgba(255,255,255,0.98);
+            border: 6px solid #000;
+            border-radius: 20px;
+            padding: 30px;
+            margin: 30px 0;
+            box-shadow: 10px 10px 0 rgba(0,0,0,0.3);
+        }
+        
+        h2 {
+            font-family: 'Bangers', cursive;
+            font-size: 2.5rem;
+            color: #667eea;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 0 #000;
+        }
+        
+        h3 {
+            font-family: 'Bangers', cursive;
+            font-size: 1.8rem;
+            color: #764ba2;
+            margin: 20px 0 10px;
+        }
+        
+        .calendar-grid {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            gap: 10px;
+            margin: 20px 0;
+        }
+        
+        .day-box {
+            background: #f0f0f0;
+            border: 3px solid #000;
+            border-radius: 10px;
+            padding: 15px;
+            min-height: 120px;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        
+        .day-box:hover {
+            background: #ffeb3b;
+            transform: scale(1.05);
+        }
+        
+        .day-header {
+            font-family: 'Bangers', cursive;
+            font-size: 1.2rem;
+            color: #667eea;
+            text-align: center;
+            border-bottom: 2px solid #000;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+        }
+        
+        .template-box {
+            background: linear-gradient(135deg, #ffeb3b, #ffc107);
+            border: 4px solid #000;
+            border-radius: 15px;
+            padding: 20px;
+            margin: 15px 0;
+        }
+        
+        .script-template {
+            background: #fff;
+            border: 3px dashed #667eea;
+            border-radius: 10px;
+            padding: 15px;
+            margin: 10px 0;
+            font-size: 1.1rem;
+        }
+        
+        .hashtag-box {
+            display: inline-block;
+            background: #764ba2;
+            color: #fff;
+            padding: 8px 15px;
+            border-radius: 20px;
+            margin: 5px;
+            border: 2px solid #000;
+            font-weight: bold;
+        }
+        
+        .idea-card {
+            background: #e1bee7;
+            border: 4px solid #000;
+            border-radius: 15px;
+            padding: 20px;
+            margin: 10px 0;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        
+        .idea-card:hover {
+            background: #ce93d8;
+            transform: translateX(10px);
+        }
+        
+        input[type="text"], textarea {
+            width: 100%;
+            padding: 15px;
+            border: 4px solid #000;
+            border-radius: 10px;
+            font-family: 'Kalam', cursive;
+            font-size: 1.1rem;
+            margin: 10px 0;
+        }
+        
+        button {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: #fff;
+            border: 4px solid #000;
+            border-radius: 15px;
+            padding: 15px 30px;
+            font-family: 'Bangers', cursive;
+            font-size: 1.5rem;
+            cursor: pointer;
+            box-shadow: 5px 5px 0 #000;
+            transition: all 0.3s;
+        }
+        
+        button:hover {
+            transform: scale(1.05);
+            box-shadow: 8px 8px 0 #000;
+        }
+        
+        .print-button {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 1000;
+        }
+        
+        @media print {
+            .print-button { display: none; }
+            body { background: #fff; }
+            .toolkit-section { page-break-inside: avoid; }
+        }
+    </style>
+</head>
+<body>
+    <button class="print-button" onclick="window.print()">🖨️ PRINT THIS!</button>
+    
+    <div class="container">
+        <h1>🎬 TIKTOK CREATOR TOOLKIT 🎬</h1>
+        
+        <!-- CONTENT CALENDAR -->
+        <div class="toolkit-section">
+            <h2>📅 30-DAY CONTENT CALENDAR</h2>
+            <p style="font-size: 1.2rem; margin-bottom: 20px;"><strong>Post 1 video per day for maximum growth!</strong></p>
+            
+            <div class="calendar-grid">
+                <div class="day-box">
+                    <div class="day-header">MON</div>
+                    <div style="font-size: 0.9rem;">Tutorial/How-To</div>
+                </div>
+                <div class="day-box">
+                    <div class="day-header">TUE</div>
+                    <div style="font-size: 0.9rem;">Trending Sound</div>
+                </div>
+                <div class="day-box">
+                    <div class="day-header">WED</div>
+                    <div style="font-size: 0.9rem;">Behind the Scenes</div>
+                </div>
+                <div class="day-box">
+                    <div class="day-header">THU</div>
+                    <div style="font-size: 0.9rem;">Q&A / Storytime</div>
+                </div>
+                <div class="day-box">
+                    <div class="day-box">
+                    <div class="day-header">FRI</div>
+                    <div style="font-size: 0.9rem;">Before & After</div>
+                </div>
+                <div class="day-box">
+                    <div class="day-header">SAT</div>
+                    <div style="font-size: 0.9rem;">Personal/Fun</div>
+                </div>
+                <div class="day-box">
+                    <div class="day-header">SUN</div>
+                    <div style="font-size: 0.9rem;">Batch Film Day!</div>
+                </div>
+            </div>
+            
+            <div class="template-box">
+                <h3>🎯 WEEKLY POSTING SCHEDULE</h3>
+                <ul style="font-size: 1.1rem; line-height: 2;">
+                    <li><strong>Best Times to Post (2025):</strong> 7-9 AM, 12-2 PM, 7-11 PM</li>
+                    <li><strong>Worst Times:</strong> 3-5 AM (nobody's awake!)</li>
+                    <li><strong>Sunday Tip:</strong> Film 3-7 videos to post during the week</li>
+                    <li><strong>Goal:</strong> Consistency beats perfection!</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- VIDEO SCRIPT TEMPLATES -->
+        <div class="toolkit-section">
+            <h2>📝 VIDEO SCRIPT TEMPLATES</h2>
+            <p style="font-size: 1.2rem; margin-bottom: 20px;">Copy these proven formulas and fill in the blanks!</p>
+            
+            <div class="template-box">
+                <h3>Template #1: Hook → Value → CTA</h3>
+                <div class="script-template">
+                    <strong>First 3 seconds (HOOK):</strong><br>
+                    "Stop scrolling! I just learned [SHOCKING THING]..."<br><br>
+                    
+                    <strong>Next 10 seconds (VALUE):</strong><br>
+                    "Here's exactly how to [DO THE THING]...<br>
+                    Step 1: [ACTION]<br>
+                    Step 2: [ACTION]<br>
+                    Step 3: [ACTION]"<br><br>
+                    
+                    <strong>Last 3 seconds (CTA):</strong><br>
+                    "Follow for more [NICHE] tips! 💯"
+                </div>
+            </div>
+            
+            <div class="template-box">
+                <h3>Template #2: POV Format</h3>
+                <div class="script-template">
+                    <strong>Start:</strong> "POV: [RELATABLE SITUATION]"<br>
+                    <strong>Middle:</strong> Show what happens (funny/dramatic)<br>
+                    <strong>End:</strong> Reaction or punchline<br><br>
+                    <em>Example: "POV: You finally understand how TikTok works" [show celebration dance]</em>
+                </div>
+            </div>
+            
+            <div class="template-box">
+                <h3>Template #3: Before & After</h3>
+                <div class="script-template">
+                    <strong>Start:</strong> "This used to look like THIS..." [show before]<br>
+                    <strong>Middle:</strong> "I did [ACTION]..." [show process]<br>
+                    <strong>End:</strong> "Now it looks like THIS!" [show after]<br><br>
+                    <em>Works for: cleaning, organizing, makeovers, transformations</em>
+                </div>
+            </div>
+            
+            <div class="template-box">
+                <h3>Template #4: Storytime</h3>
+                <div class="script-template">
+                    <strong>Hook:</strong> "You won't believe what just happened..."<br>
+                    <strong>Setup:</strong> "So I was [DOING THING] when..."<br>
+                    <strong>Conflict:</strong> "And then [CRAZY THING] happened!"<br>
+                    <strong>Resolution:</strong> "In the end, [HOW IT ENDED]"<br>
+                    <strong>Lesson:</strong> "The lesson? [TAKEAWAY]"
+                </div>
+            </div>
+        </div>
+
+        <!-- VIRAL HOOKS -->
+        <div class="toolkit-section">
+            <h2>🪝 100 VIRAL HOOKS (COPY & PASTE!)</h2>
+            
+            <div class="idea-card">
+                <strong>Category: Tutorial/Education</strong>
+                <ul>
+                    <li>"The reason nobody told you this..."</li>
+                    <li>"I wish I knew this 5 years ago"</li>
+                    <li>"Stop doing [THING] and do THIS instead"</li>
+                    <li>"This [NUMBER]-second trick changed everything"</li>
+                    <li>"I learned this the hard way so you don't have to"</li>
+                </ul>
+            </div>
+            
+            <div class="idea-card">
+                <strong>Category: Controversial/Hot Takes</strong>
+                <ul>
+                    <li>"Unpopular opinion but..."</li>
+                    <li>"I'm about to make a lot of people mad but..."</li>
+                    <li>"Nobody talks about this but..."</li>
+                    <li>"The truth about [THING] that influencers won't tell you"</li>
+                    <li>"This is going to sound crazy but..."</li>
+                </ul>
+            </div>
+            
+            <div class="idea-card">
+                <strong>Category: Relatable/POV</strong>
+                <ul>
+                    <li>"POV: You finally figured out [THING]"</li>
+                    <li>"When you realize [RELATABLE MOMENT]"</li>
+                    <li>"Tell me you're [TYPE] without telling me"</li>
+                    <li>"Things only [GROUP] will understand"</li>
+                    <li>"If you know, you know..."</li>
+                </ul>
+            </div>
+            
+            <div class="idea-card">
+                <strong>Category: Curiosity Gap</strong>
+                <ul>
+                    <li>"I can't believe this actually worked..."</li>
+                    <li>"Wait for it... 👀"</li>
+                    <li>"This is why you're not seeing results..."</li>
+                    <li>"Here's what they don't want you to know..."</li>
+                    <li>"The secret to [RESULT] is..."</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- HASHTAG STRATEGY -->
+        <div class="toolkit-section">
+            <h2>#️⃣ HASHTAG STRATEGY 2025</h2>
+            
+            <div class="template-box">
+                <h3>The Perfect Hashtag Mix (3-5 hashtags total)</h3>
+                <p style="font-size: 1.1rem; margin: 15px 0;">
+                    <strong>1 BIG hashtag</strong> (10M+ views)<br>
+                    <strong>2 MEDIUM hashtags</strong> (100K-1M views)<br>
+                    <strong>1-2 SMALL niche hashtags</strong> (under 100K views)
+                </p>
+            </div>
+            
+            <div class="template-box">
+                <h3>🔥 Trending Hashtags 2025</h3>
+                <div>
+                    <span class="hashtag-box">#FYP</span>
+                    <span class="hashtag-box">#ForYou</span>
+                    <span class="hashtag-box">#Viral</span>
+                    <span class="hashtag-box">#TikTok</span>
+                    <span class="hashtag-box">#Trending</span>
+                </div>
+                <p style="margin-top: 15px; font-size: 1.1rem;"><strong>⚠️ WARNING:</strong> Use max 1-2 of these! Too many generic tags = shadowban!</p>
+            </div>
+            
+            <div class="template-box">
+                <h3>📝 Your Niche Hashtags</h3>
+                <p style="font-size: 1.1rem; margin-bottom: 15px;">Fill in YOUR specific hashtags:</p>
+                <input type="text" placeholder="Hashtag #1 (your main niche)">
+                <input type="text" placeholder="Hashtag #2 (your sub-niche)">
+                <input type="text" placeholder="Hashtag #3 (specific topic)">
+                <input type="text" placeholder="Hashtag #4 (your branded tag)">
+            </div>
+        </div>
+
+        <!-- PEOPLE TO FOLLOW -->
+        <div class="toolkit-section">
+            <h2>👥 PEOPLE TO FOLLOW (2025 Creators)</h2>
+            
+            <div class="template-box">
+                <h3>🎯 Study These Creators in YOUR Niche</h3>
+                <p style="font-size: 1.1rem; margin: 15px 0;">Find creators with 10K-100K followers in your niche and study them!</p>
+                
+                <strong>How to Find Them:</strong>
+                <ul style="font-size: 1.1rem; line-height: 2; margin: 15px 0;">
+                    <li>Search your niche hashtags</li>
+                    <li>Filter by "This Month" to find trending creators</li>
+                    <li>Look for creators with HIGH engagement (not just followers)</li>
+                    <li>Watch their last 10 videos and note what works</li>
+                </ul>
+            </div>
+            
+            <div class="template-box">
+                <h3>📝 Your Creator Study List</h3>
+                <p style="font-size: 1.1rem; margin-bottom: 15px;">Write down 5 creators to study:</p>
+                <input type="text" placeholder="Creator #1 (@username)">
+                <input type="text" placeholder="Creator #2 (@username)">
+                <input type="text" placeholder="Creator #3 (@username)">
+                <input type="text" placeholder="Creator #4 (@username)">
+                <input type="text" placeholder="Creator #5 (@username)">
+                
+                <p style="font-size: 1.1rem; margin-top: 20px;">
+                    <strong>What to track:</strong><br>
+                    ✅ What type of videos get most views?<br>
+                    ✅ What hooks do they use?<br>
+                    ✅ How long are their videos?<br>
+                    ✅ What sounds are they using?<br>
+                    ✅ How often do they post?
+                </p>
+            </div>
+        </div>
+
+        <!-- VIDEO IDEAS BANK -->
+        <div class="toolkit-section">
+            <h2>💡 100 VIDEO IDEAS BANK</h2>
+            <p style="font-size: 1.2rem; margin-bottom: 20px;">Never run out of ideas again!</p>
+            
+            <div class="idea-card">
+                <strong>Universal Ideas (Work for ANY Niche):</strong>
+                <ul style="font-size: 1.1rem; line-height: 1.8;">
+                    <li>✅ "Things I wish I knew before starting [YOUR THING]"</li>
+                    <li>✅ "Day in the life of [YOUR ROLE]"</li>
+                    <li>✅ "Get ready with me while I talk about [TOPIC]"</li>
+                    <li>✅ "5 mistakes beginners make with [YOUR NICHE]"</li>
+                    <li>✅ "Before I started vs Now" transformation</li>
+                    <li>✅ "Answering your questions about [TOPIC]"</li>
+                    <li>✅ "Behind the scenes of [WHAT YOU DO]"</li>
+                    <li>✅ "This is why [COMMON BELIEF] is wrong"</li>
+                    <li>✅ "Watch me [DO THING] in real time"</li>
+                    <li>✅ "Red flags in [YOUR INDUSTRY]"</li>
+                </ul>
+            </div>
+            
+            <div class="template-box">
+                <h3>📝 YOUR Video Ideas (Write 10 Right Now!)</h3>
+                <textarea rows="15" placeholder="1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10."></textarea>
+            </div>
+        </div>
+
+        <!-- BATCH FILMING WORKSHEET -->
+        <div class="toolkit-section">
+            <h2>🎬 BATCH FILMING WORKSHEET</h2>
+            
+            <div class="template-box">
+                <h3>Sunday Batch Filming Checklist</h3>
+                <p style="font-size: 1.2rem; margin: 15px 0;"><strong>Film 5-7 videos in 1-2 hours!</strong></p>
+                
+                <div style="background: #fff; padding: 20px; border-radius: 10px; border: 3px solid #000;">
+                    <h4 style="font-size: 1.4rem; margin-bottom: 15px;">BEFORE You Start:</h4>
+                    <ul style="font-size: 1.1rem; line-height: 2;">
+                        <li>☐ Charge phone to 100%</li>
+                        <li>☐ Clean camera lens</li>
+                        <li>☐ Set up filming spot (window light!)</li>
+                        <li>☐ Pick 5-7 video ideas from your list</li>
+                        <li>☐ Save trending sounds you want to use</li>
+                        <li>☐ Wear outfit you feel good in</li>
+                        <li>☐ Eliminate distractions (phone on silent)</li>
+                    </ul>
+                    
+                    <h4 style="font-size: 1.4rem; margin: 20px 0 15px;">FILMING:</h4>
+                    <ul style="font-size: 1.1rem; line-height: 2;">
+                        <li>☐ Film Video #1 (3-5 takes max!)</li>
+                        <li>☐ Film Video #2</li>
+                        <li>☐ Film Video #3</li>
+                        <li>☐ Film Video #4</li>
+                        <li>☐ Film Video #5</li>
+                        <li>☐ Film Video #6 (bonus!)</li>
+                        <li>☐ Film Video #7 (backup content)</li>
+                    </ul>
+                    
+                    <h4 style="font-size: 1.4rem; margin: 20px 0 15px;">EDITING (Do Later!):</h4>
+                    <ul style="font-size: 1.1rem; line-height: 2;">
+                        <li>☐ Edit & post Video #1 (Monday)</li>
+                        <li>☐ Edit & schedule Video #2 (Tuesday)</li>
+                        <li>☐ Edit & schedule Video #3 (Wednesday)</li>
+                        <li>☐ Edit & schedule Video #4 (Thursday)</li>
+                        <li>☐ Edit & schedule Video #5 (Friday)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- ANALYTICS TRACKER -->
+        <div class="toolkit-section">
+            <h2>📊 ANALYTICS TRACKER</h2>
+            
+            <div class="template-box">
+                <h3>What To Track Every Week</h3>
+                <div style="background: #fff; padding: 20px; border-radius: 10px; border: 3px solid #000; margin-top: 15px;">
+                    <p style="font-size: 1.1rem; margin-bottom: 15px;"><strong>Go to Profile → Menu (3 lines) → Creator Tools → Analytics</strong></p>
+                    
+                    <h4>Week of: <input type="text" placeholder="Date" style="width: 200px; display: inline-block;"></h4>
+                    
+                    <div style="margin: 20px 0;">
+                        <label style="font-size: 1.1rem;">Followers Start:</label>
+                        <input type="number" placeholder="0">
+                        
+                        <label style="font-size: 1.1rem; margin-left: 20px;">Followers End:</label>
+                        <input type="number" placeholder="0">
+                    </div>
+                    
+                    <div style="margin: 20px 0;">
+                        <label style="font-size: 1.1rem;">Total Videos Posted:</label>
+                        <input type="number" placeholder="0" style="width: 100px;">
+                    </div>
+                    
+                    <h4 style="margin-top: 20px;">Best Performing Video:</h4>
+                    <input type="text" placeholder="Video title/description">
+                    <div style="margin-top: 10px;">
+                        <label>Views:</label>
+                        <input type="number" placeholder="0" style="width: 150px; margin-right: 20px;">
+                        
+                        <label>Likes:</label>
+                        <input type="number" placeholder="0" style="width: 150px;">
+                    </div>
+                    
+                    <h4 style="margin-top: 20px;">What worked this week?</h4>
+                    <textarea rows="3" placeholder="What type of content got the most engagement?"></textarea>
+                    
+                    <h4 style="margin-top: 15px;">What to try next week?</h4>
+                    <textarea rows="3" placeholder="Based on your analytics, what should you do more of?"></textarea>
+                </div>
+            </div>
+        </div>
+
+        <!-- GOAL TRACKER -->
+        <div class="toolkit-section">
+            <h2>🎯 30-DAY GOAL TRACKER</h2>
+            
+            <div class="template-box">
+                <h3>Set Your Monthly Goals</h3>
+                <div style="background: #fff; padding: 20px; border-radius: 10px; border: 3px solid #000;">
+                    <h4 style="font-size: 1.3rem;">By the end of this month, I will:</h4>
+                    
+                    <div style="margin: 20px 0;">
+                        <label style="font-size: 1.1rem;">Reach:</label>
+                        <input type="number" placeholder="500" style="width: 120px;">
+                        <span style="font-size: 1.1rem;"> followers</span>
+                    </div>
+                    
+                    <div style="margin: 20px 0;">
+                        <label style="font-size: 1.1rem;">Post:</label>
+                        <input type="number" placeholder="30" style="width: 120px;">
+                        <span style="font-size: 1.1rem;"> videos</span>
+                    </div>
+                    
+                    <div style="margin: 20px 0;">
+                        <label style="font-size: 1.1rem;">Get:</label>
+                        <input type="number" placeholder="1000" style="width: 120px;">
+                        <span style="font-size: 1.1rem;"> total views</span>
+                    </div>
+                    
+                    <h4 style="margin-top: 30px; font-size: 1.3rem;">My WHY (Why am I doing this?):</h4>
+                    <textarea rows="4" placeholder="Write your motivation here..."></textarea>
+                </div>
+            </div>
+        </div>
+
+        <div style="text-align: center; margin: 50px 0; padding: 30px; background: rgba(255,255,255,0.9); border: 6px solid #000; border-radius: 20px;">
+            <h2 style="font-family: 'Permanent Marker', cursive; font-size: 2.5rem; color: #667eea;">
+                🎉 YOU GOT THIS! 🎉
+            </h2>
+            <p style="font-size: 1.4rem; margin-top: 15px;">
+                Print this toolkit, fill it out, and watch your TikTok grow!<br>
+                Consistency beats perfection every single time! 💪
+            </p>
+        </div>
+    </div>
+</body>
+</html>
