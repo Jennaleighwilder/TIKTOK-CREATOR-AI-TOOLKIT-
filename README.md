@@ -91,3 +91,5 @@ Your success stories fuel future tool development.
 ---
 
 **Built with intention. Shared with purpose. Used for growth.**
+
+See ORIGIN.md for authorship, provenance, and licensing context.
